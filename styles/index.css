@@ -15,6 +15,14 @@ html {
     box-sizing: border-box;
 }
 
+/* set variables */
+:root {
+    --logo-font: 'Climate Crisis', cursive;
+    --main-font: 'Shantell Sans', cursive;
+    --title-weight: 700;
+    --sub-weight: 500;
+}
+
 /* set custom flex-row class */
 .flex-row {
     display: flex;
