@@ -21,6 +21,7 @@ html {
     --main-font: 'Shantell Sans', cursive;
     --title-weight: 700;
     --sub-weight: 500;
+    --container-padding: 3rem 5rem;
 }
 
 /* set custom flex-row class */
