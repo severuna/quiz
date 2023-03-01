@@ -1,0 +1,13 @@
+/* set 1rem = 10px */
+html {
+    font-size: 10px;
+}
+
+/* set zero padding and box-size for all elements */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
