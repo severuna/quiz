@@ -60,3 +60,9 @@ a {
     color: var(--logo-color);
     letter-spacing: .8rem;
 }
+
+/* nav styles */
+.nav {
+    gap: 3rem;
+    align-items: center;
+}
