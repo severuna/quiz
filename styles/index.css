@@ -36,6 +36,12 @@ html {
     flex-direction: column;
 }
 
+/* correct links default styles */
+a {
+    text-decoration: none;
+    display: block;
+}
+
 /* headers main container styles */
 .header {
     padding: var(--container-padding);
