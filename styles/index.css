@@ -58,4 +58,5 @@ a {
     font-size: 4.2rem;
     font-family: var(--logo-font);
     color: var(--logo-color);
+    letter-spacing: .8rem;
 }
