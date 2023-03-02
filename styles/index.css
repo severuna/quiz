@@ -22,7 +22,7 @@ html {
     --title-weight: 700;
     --sub-weight: 500;
     --container-padding: 3rem 5rem;
-    --logo-q-color: gold;
+    --logo-color: gold;
 }
 
 /* set custom flex-row class */
@@ -57,5 +57,5 @@ a {
 .logo {
     font-size: 4.2rem;
     font-family: var(--logo-font);
-    color: var(--logo-q-color);
+    color: var(--logo-color);
 }
