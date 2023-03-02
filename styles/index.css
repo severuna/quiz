@@ -125,3 +125,7 @@ a {
     color: var(--title-color);
     text-align: center;
 }
+
+.question b {
+    color: var(--logo-color);
+}
