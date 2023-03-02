@@ -115,3 +115,12 @@ a {
     background-color: var(--black-back);
     gap: var(--container-gap);
 }
+
+/* forms question styles */
+.question {
+    font-family: var(--main-font);
+    font-weight: var(--title-weight);
+    font-size: var(--title-size);
+    color: var(--title-color);
+    text-align: center;
+}
