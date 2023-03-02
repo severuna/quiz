@@ -28,6 +28,7 @@ html {
     --container-gap: 3rem;
     --title-size: 3rem;
     --main-title-size: 4rem;
+    --border-radius: 1.5rem;
 }
 
 /* set custom flex-row class */
