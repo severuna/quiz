@@ -87,3 +87,10 @@ a {
     transform: scale(1.1);
     color: var(--logo-color);
 }
+
+/* main container styles */
+.main {
+    height: 80vh;
+    padding: var(--container-padding);
+    align-items: center;
+}
