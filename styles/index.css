@@ -95,3 +95,9 @@ a {
     align-items: center;
     gap: 3rem;
 }
+
+/* title styles */
+.title {
+    font-size: 4rem;
+    font-family: var(--logo-font);
+}
