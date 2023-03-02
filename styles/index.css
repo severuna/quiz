@@ -144,3 +144,13 @@ label {
     font-weight: var(--sub-weight);
     font-family: var(--main-font);
 }
+
+/* button styles */
+.btn {
+    background-color: var(--gold-back);
+    padding: var(--field-padding);
+    border-radius: var(--border-radius);
+    font-family: var(--main-font);
+    font-weight: var(--title-weight);
+    font-size: var(--answer-size);
+}
