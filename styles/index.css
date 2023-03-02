@@ -26,6 +26,7 @@ html {
     --title-color: azure;
     --black-back: rgba(0, 0, 0, 1);
     --container-gap: 3rem;
+    --title-size: 3rem;
 }
 
 /* set custom flex-row class */
@@ -66,7 +67,7 @@ a {
 
 /* logo span styles */
 .logo span {
-    font-size: 3rem;
+    font-size: var(--title-size);
 }
 
 /* nav styles */
@@ -79,7 +80,7 @@ a {
 .nav-link {
     font-family: var(--main-font);
     font-weight: var(--title-weight);
-    font-size: 3rem;
+    font-size: var(--title-size);
     color: var(--title-color);
     transition: all .8s ease;
 }
