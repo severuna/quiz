@@ -77,4 +77,5 @@ a {
     font-family: var(--main-font);
     font-weight: var(--title-weight);
     font-size: 3rem;
+    color: azure;
 }
