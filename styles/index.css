@@ -30,6 +30,7 @@ html {
     --title-size: 3rem;
     --main-title-size: 4rem;
     --border-radius: 1.5rem;
+    --field-padding: 2rem 1rem;
 }
 
 /* set custom flex-row class */
@@ -128,4 +129,12 @@ a {
 
 .question b {
     color: var(--logo-color);
+}
+
+/* form field styles */
+.field {
+    gap: var(--container-gap);
+    padding: var(--field-padding);
+    background-color: var(--light-back);
+    border-radius: var(--border-radius);
 }
