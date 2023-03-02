@@ -24,6 +24,7 @@ html {
     --container-padding: 3rem 5rem;
     --logo-color: gold;
     --title-color: azure;
+    --black-back: rgba(0, 0, 0, 1);
 }
 
 /* set custom flex-row class */
@@ -51,7 +52,7 @@ a {
     align-items: center;
     height: 10vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: var(--black-back);
 }
 
 /* logo styles */
