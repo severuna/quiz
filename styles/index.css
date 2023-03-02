@@ -106,3 +106,12 @@ a {
     font-size: var(--main-title-size);
     font-family: var(--logo-font);
 }
+
+/* form styles */
+.test {
+    padding: var(--container-padding);
+    width: 60vw;
+    border-radius: var(--border-radius);
+    background-color: var(--black-back);
+    gap: var(--container-gap);
+}
