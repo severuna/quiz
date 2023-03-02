@@ -26,6 +26,7 @@ html {
     --title-color: azure;
     --black-back: rgba(0, 0, 0, 1);
     --light-back: var(--title-color);
+    --gold-back: var(--logo-color);
     --container-gap: 3rem;
     --title-size: 3rem;
     --main-title-size: 4rem;
