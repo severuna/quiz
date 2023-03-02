@@ -27,6 +27,7 @@ html {
     --black-back: rgba(0, 0, 0, 1);
     --container-gap: 3rem;
     --title-size: 3rem;
+    --main-title-size: 4rem;
 }
 
 /* set custom flex-row class */
@@ -59,7 +60,7 @@ a {
 
 /* logo styles */
 .logo {
-    font-size: 4.2rem;
+    font-size: var(--main-title-size);
     font-family: var(--logo-font);
     color: var(--logo-color);
     letter-spacing: .8rem;
@@ -101,6 +102,6 @@ a {
 
 /* title styles */
 .title {
-    font-size: 4rem;
+    font-size: var(--main-title-size);
     font-family: var(--logo-font);
 }
