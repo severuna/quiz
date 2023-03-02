@@ -51,3 +51,9 @@ a {
     width: 100vw;
     background-color: rgba(0, 0, 0, 1);
 }
+
+/* logo styles */
+.logo {
+    font-size: 4.2rem;
+    font-family: var(--logo-font);
+}
