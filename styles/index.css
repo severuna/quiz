@@ -71,3 +71,10 @@ a {
     gap: 3rem;
     align-items: center;
 }
+
+/* nav link styles */
+.nav-link {
+    font-family: var(--main-font);
+    font-weight: var(--title-weight);
+    font-size: 3rem;
+}
