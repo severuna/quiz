@@ -31,6 +31,7 @@ html {
     --main-title-size: 4rem;
     --border-radius: 1.5rem;
     --field-padding: 2rem 1rem;
+    --answer-size: 2.2rem;
 }
 
 /* set custom flex-row class */
@@ -134,4 +135,11 @@ a {
     padding: var(--field-padding);
     background-color: var(--light-back);
     border-radius: var(--border-radius);
+}
+
+/* label styles */
+label {
+    font-size: var(--answer-size);
+    font-weight: var(--sub-weight);
+    font-family: var(--main-font);
 }
