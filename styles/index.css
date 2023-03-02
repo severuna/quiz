@@ -57,7 +57,6 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 100vw;
     background-color: var(--black-back);
 }
 
@@ -97,7 +96,6 @@ a {
 
 /* main container styles */
 .main {
-    height: 80vh;
     padding: var(--container-padding);
     align-items: center;
     gap: var(--container-gap);
@@ -112,7 +110,6 @@ a {
 /* form styles */
 .test {
     padding: var(--container-padding);
-    width: 60vw;
     border-radius: var(--border-radius);
     background-color: var(--black-back);
     gap: var(--container-gap);
