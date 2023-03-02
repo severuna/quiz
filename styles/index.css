@@ -61,6 +61,11 @@ a {
     letter-spacing: .8rem;
 }
 
+/* logo span styles */
+.logo span {
+    font-size: 3rem;
+}
+
 /* nav styles */
 .nav {
     gap: 3rem;
