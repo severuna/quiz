@@ -25,6 +25,7 @@ html {
     --logo-color: gold;
     --title-color: azure;
     --black-back: rgba(0, 0, 0, 1);
+    --container-gap: 3rem;
 }
 
 /* set custom flex-row class */
@@ -70,7 +71,7 @@ a {
 
 /* nav styles */
 .nav {
-    gap: 3rem;
+    gap: var(--container-gap);
     align-items: center;
 }
 
@@ -94,7 +95,7 @@ a {
     height: 80vh;
     padding: var(--container-padding);
     align-items: center;
-    gap: 3rem;
+    gap: var(--container-gap);
 }
 
 /* title styles */
