@@ -23,6 +23,7 @@ html {
     --sub-weight: 500;
     --container-padding: 3rem 5rem;
     --logo-color: gold;
+    --title-color: azure;
 }
 
 /* set custom flex-row class */
@@ -77,5 +78,12 @@ a {
     font-family: var(--main-font);
     font-weight: var(--title-weight);
     font-size: 3rem;
-    color: azure;
+    color: var(--title-color);
+    transition: all .8s ease;
+}
+
+/* nav link hover eff */
+.nav-link:hover {
+    transform: scale(1.1);
+    color: var(--logo-color);
 }
