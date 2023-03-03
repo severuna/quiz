@@ -154,3 +154,17 @@ label {
     font-weight: var(--title-weight);
     font-size: var(--answer-size);
 }
+
+/* foote styles */
+.footer {
+    background-color: var(--black-back);
+    padding: var(--container-padding);
+    justify-content: center;
+}
+
+.footer a, .footer a:visited, .footer a:hover {
+    color: var(--logo-color);
+    font-family: var(--main-font);
+    font-weight: var(--sub-weight);
+    font-size: var(--title-size);
+}
